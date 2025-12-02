@@ -30,6 +30,7 @@ jobs:
       AFFECT_RELEASE: "true" 
       DEBUG: "false"
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      ORG_NAME: ${{ github.repository_owner }}
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
