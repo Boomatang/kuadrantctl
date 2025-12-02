@@ -2,7 +2,7 @@
 
 echo "Running plugin packaging"
 
-ORG="Kuadrant"
+ORG="${ORG_NAME:-Kuadrant}"
 CTL=$ORG/kuadrantctl
 PLUGINS=($ORG/dns-operator)
 
